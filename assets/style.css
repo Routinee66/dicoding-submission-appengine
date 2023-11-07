@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: rgb(184, 184, 184);
+  padding: 20px;
+}
+
+section {
+  margin-top: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card::before {
+  bottom: 2%;
+  left: 10%;
+  background: linear-gradient(#0098f0, #17458a);
+}
+
+.card {
+  display: flex;
+  border-radius: 30px;
+  padding: 15px 45px;
+  box-shadow: 0px 0px 25px .1px #00c6ff;
+  background-color: #3f3f3f;
+  filter: blur(0.2px);
+}
+
+.left {
+  flex: 1;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 50px;
+  border-right: 1px solid #e4e4e4;
+}
+
+.right {
+  flex: 1;
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+img {
+  border: solid 5px #00c6ff;
+  border-radius: 50%;
+  height: 200px;
+  width: 100%;
+  margin: 30px 0;
+  object-fit: cover;
+  transition: .5s;
+}
+
+img:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.text {
+  color: #00c6ff;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a {
+  background-image: linear-gradient(to right, #00c6ff 0%, #193c66 100%);
+  display: inline-block;
+  margin-right: 15px;
+  padding: 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.social-icons i {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.7);
+  transition: all 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 280px;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+.credit a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800;
+}
+
+.credit {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
