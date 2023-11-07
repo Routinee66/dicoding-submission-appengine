@@ -1,4 +1,6 @@
+runtime: python39
+
 handlers:
-- url: /
-  static_files: static/index.html
-  upload: static/index.html
+  - url: /
+    static_files: static/index.html
+    upload: static/index.html
